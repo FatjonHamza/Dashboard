@@ -1,0 +1,64 @@
+.widgetLarge {
+  flex: 4;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 7px;
+}
+.widgetLargeTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.widgetLargeTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+.widgetLargeTh {
+  text-align: left;
+}
+.widgetLargeUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.widgetLargeImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetLargeDate,
+.widgetLargeAmount {
+  font-weight: 300;
+}
+
+.widgetLargeButton {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 7px;
+  font-size: 13px;
+}
+.widgetLargeButton.Approved {
+  background-color: rgb(197, 247, 199);
+  color: rgb(0, 255, 8);
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.widgetLargeButton.Declined {
+  background-color: rgb(255, 190, 190);
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.widgetLargeButton.Pending {
+  background-color: rgb(208, 250, 253);
+  color: rgb(0, 236, 253);
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
