@@ -1,0 +1,29 @@
+.staffList{
+    flex: 4;
+}
+
+.staffListStaff{
+    display: flex;
+    align-items: center;
+}
+
+.staffListImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.staffListEdit{
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px;
+    background-color: rgb(118, 199, 118);
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.staffListDelete{
+    color: red;
+    cursor: pointer;
+}
