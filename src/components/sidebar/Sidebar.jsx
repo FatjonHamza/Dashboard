@@ -7,6 +7,7 @@ import {
   Assignment,
   CalendarMonth,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -18,10 +19,12 @@ export default function Sidebar() {
           </div>
 
           <ul className="sidebarList">
-            <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="sidebarListItem active">
+                <LineStyle className="sidebarIcon" />
+                Home
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
@@ -42,10 +45,12 @@ export default function Sidebar() {
           </div>
 
           <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <Group className="sidebarIcon" />
-              Staff
-            </li>
+            <Link to="/staff" className="link">
+              <li className="sidebarListItem">
+                <Group className="sidebarIcon" />
+                Staff
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <Assignment className="sidebarIcon" />
               Tasks
